@@ -1,12 +1,15 @@
 {
   "name": "tetris",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tetris multiplayer con p5 js, node js y socket.io",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
   },
-  "author": "",
+  "engines": {
+    "node": "13.8.0"
+  },
+  "author": "Daniel Abedoy",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
