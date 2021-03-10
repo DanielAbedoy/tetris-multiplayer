@@ -31,6 +31,9 @@ Proyecto...:
 > - [Node js](https://nodejs.org/es/ "Node js")
 > - [Socket.io](https://socket.io "Socket.io")
 
+## Juega ahora
+> [Ir al juego](https://tetris-multiplayer-abedoy.herokuapp.com "Ir al juego")
+
 ## Contenido
 > + Tetris
 >   + public 
