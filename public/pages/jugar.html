@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.socket.io/3.1.1/socket.io.min.js"
+    integrity="sha384-gDaozqUvc4HTgo8iZjwth73C6dDDeOJsAgpxBcMpZYztUfjHXpzrpdrHRdVp8ySO"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../css/stylesPlayer.css">
+
+  <script src="../libraries/p5.min.js"></script>
+  <script src="../libraries/p5.dom.min.js"></script>
+
+  <script src="../js/game/Mapa.js"></script>
+  <script src="../js/game/Piezas.js"></script>
+  <script src="../js/game/Tetramino.js"></script>
+
+  <script src="../js/game/sketch.js"></script>
+  <script src="../js/game/sketchCliente.js"></script>
+
+  <script src="../js/conectar.js"></script>
+
+  <title>Tetris | Jugar</title>
+</head>
+
+<body>
+
+  <div class="content">
+
+    <div class="player">
+
+      <div id="canvasPlayer"></div>
+
+      <div class="marcador">
+
+        <div class="jugador">
+          <p>Jugador: <br> <span class="blod" id="jugadorN"></span></p>
+        </div>
+
+        <div class="nivel">
+          <p>Nivel: <br> <span class="blod" id="nivelP">1</span></p>
+        </div>
+        <div class="lineas">
+          <p>Lineas: <br> <span class="blod" id="lineasP">0</span></p>
+        </div>
+        <div class="piezas">
+          <p>Piezas: <br> <span class="blod" id="piezasP">-1</span></p>
+        </div>
+
+        <div>
+          <button id="bt_salir" >
+            <img width="30px" src="https://image.flaticon.com/icons/png/512/56/56805.png" alt="" srcset="">
+          </button>
+          <button id="bt_pausa">
+            <img width="30px" src="https://image.flaticon.com/icons/png/512/2938/2938609.png" alt="" srcset="">
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="cliente">
+      <div class="marcador">
+
+        <div class="nivelC">
+          <p>Nivel: <br> <span class="blod" id="nivelC">0</span></p>
+        </div>
+        <div class="lineasC">
+          <p>Lineas: <br> <span class="blod" id="lineasC">0</span></p>
+        </div>
+        <div class="piezasC">
+          <p>Piezas: <br> <span class="blod" id="piezasC">0</span></p>
+        </div>
+        <div class="jugador">
+          <p>Jugador: <br> <span class="blod" id="jugadorC"> - </span></p>
+        </div>
+
+      </div>
+      <div id="canvasCliente"></div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>

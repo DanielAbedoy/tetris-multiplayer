@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <title>Tetris</title>
+</head>
+
+<body>
+
+  <!--   <div id="canvasPlayer"></div>
+  <div id="canvasCliente"></div>
+   -->
+  <div class="content">
+    <header>
+      <h2 class="titulo">Tetris Game</h2>
+      <p class="autor">Milti-jugador</p>
+    </header>
+
+    <div class="sections">
+
+      <div class="nombre">
+        <p class="label">Nombre</p>
+        <input id="txt_nombre" type="text" class="inputSala" placeholder="Nombre de usiario">
+      </div>
+
+      <div class="unirse">
+
+        <p class="label">Unirse a una sala</p>
+        <input id="txt_unirse" type="text" class="inputSala" placeholder="Nombre de la sala">
+        <button id="bt_unirse" class="btSala" >Unirse</button>
+      </div>
+
+      <div class="crear">
+        <p class="label">Crear una sala</p>
+        <input id="txt_crear" type="text" class="inputSala" placeholder="Nombre de la sala">
+        <button id="bt_crear" class="btSala" >Crear</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>Juego creado por Daniel Abedoy 2021</p>
+    </footer>
+
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

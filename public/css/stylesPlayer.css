@@ -1,0 +1,115 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  background-image: url("https://st.depositphotos.com/1001564/2470/i/600/depositphotos_24704059-stock-photo-background.jpg") ;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  font-family: 'VT323', monospace;
+}
+.blod{
+  font-weight: bold;
+}
+.content{
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.content .player{
+  display: flex;
+  flex-direction: row;
+
+  background-color: rgba(0, 0, 139, 0.164);
+  border-radius: 15px;
+  border: solid 2px rgba(0, 0, 139, 0.541);
+  padding: 5px 7px;
+}
+
+#defaultCanvas0{
+  border: solid 12px white;
+}
+#defaultCanvas1{
+  border: solid 6px white;
+}
+
+.content .player .marcador{
+  width: 250px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .player .marcador>div{
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.575);
+  border-radius: 5px;
+  border:solid 2px white;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.content .player .marcador>div>button{
+  padding: 4px;
+  width: 35%;
+  background-color: rgba(64, 224, 208, 0.76);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.479);
+}
+
+.content .player .marcador>div>button:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.479);
+}
+
+.content .player .marcador>div>button:focus{
+  outline: none;
+}
+
+.content .player .marcador>div>button:active{
+  transition: 0.2s ease;
+  transform: scale(0.8);
+}
+
+.content .cliente{
+  background-color: rgba(12, 221, 176, 0.274);
+  border-radius: 15px;
+  border: solid 2px rgba(4, 232, 240, 0.541);
+  padding: 5px 7px;
+}
+
+.content .cliente .marcador{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.content .cliente .marcador>div{
+  width: 25%;
+  background-color: rgba(255, 255, 255, 0.575);
+  border-radius: 5px;
+  border:solid 2px white;
+  padding: 10px 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
